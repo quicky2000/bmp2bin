@@ -1,4 +1,4 @@
-depend:lib_bmp
+depend:lib_bmp parameter_manager
 LDFLAGS:
 CFLAGS:-g -Wall -ansi -pedantic
 
