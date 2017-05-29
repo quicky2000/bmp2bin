@@ -1,4 +1,3 @@
 depend:lib_bmp parameter_manager
 LDFLAGS:
-CFLAGS:-g -Wall -ansi -pedantic
-
+CFLAGS:-g -Wall -ansi -pedantic -std=c++11 -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS
