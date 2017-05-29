@@ -36,7 +36,7 @@ int main(int argc, char ** argv)
   try
     {
       // Defining application command line parameters
-      parameter_manager::parameter_manager l_param_manager("dicoplus.exe","--",1);
+      parameter_manager::parameter_manager l_param_manager("bmp2bin.exe","--",1);
       parameter_if l_input_file("input_file",false);
       l_param_manager.add(l_input_file);
       
